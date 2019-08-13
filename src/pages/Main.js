@@ -46,7 +46,6 @@ export default function Main({ match }) {
                 }
             }
         );
-
         setUsers(users.filter(user => user._id !== id))
     }
     async function handleLike(id) {
